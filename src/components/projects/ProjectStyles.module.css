@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+    height: 100%;
+  
+
+}
+
+
+.projectTitle{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.cardText{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.recent{
+    font-size: 25px;
+}
+
+.paragraph{
+    width: 80%;
+}
+
+
+.projectBtn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: var(--btn-color);
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgba(0,0 0, 0, 0.25);
+    font-family: 'roboto Mono';
+    text-transform: uppercase;
+    color: white;
+    border: none;
+}
+
+.cardImages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.19);
+    
+}
+
+
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image:hover{
+    size: 150%;
+}
+
+
