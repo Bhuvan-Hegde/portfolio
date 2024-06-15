@@ -83,6 +83,11 @@
     font-family: myFont, sans-serif;
 }
 
+
+.nameText .h2{
+    font-size: 30px;
+}
+
 @media(min-width:900px){
     .container{
         flex-direction:row-reverse;

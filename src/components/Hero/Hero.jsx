@@ -19,7 +19,7 @@ function Hero() {
             <h1 className={styles.nameText}>
             BHUVAN  HEGDE
             </h1>
-            <h2>
+            <h2 className={styles.nameText}>
                 Student
             </h2>
             <span>
@@ -33,7 +33,7 @@ function Hero() {
                     <img src={linkedInIcon} alt="" />
                 </a>
             </span>
-            <p>
+            <p className={styles.paragraph}>
                 A passionate graphic designer and developer
             </p>
             <a href={cv} download>

@@ -17,10 +17,10 @@ function Projects() {
         <div className={styles.projectsContainer}>
           <div className={styles.cardText}>
             <h2 className={styles.recent}>Recent Works</h2>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, consequatur numquam quam qui totam esse maxime delectus aspernatur, earum temporibus quidem magni et doloribus voluptate sunt iure. Earum, maiores hic.</p>
-            <a href="https://pin.it/3NZy4fZ8z" target='blank'>
-              <button className={styles.projectBtn}>SEE MORE</button>
-            </a>
+            <p className={styles.paragraph}>
+                I design thumbnails and posters usually related to gaming. Mostly includes BGMI and Valorant. 
+            </p>
+
           </div>
 
           <div className={styles.cardImages}>
@@ -32,6 +32,9 @@ function Projects() {
             <img className={styles.image} src={img5} alt="" />
             
           </div>
+          <a href="https://pin.it/3NZy4fZ8z" target='blank'>
+              <button className={styles.projectBtn}>SEE MORE</button>
+            </a>
 
 
         </div>
