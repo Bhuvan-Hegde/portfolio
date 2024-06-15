@@ -23,13 +23,13 @@ function Hero() {
                 Student
             </h2>
             <span>
-                <a href='#twitter' target='blank'>
+                <a href='https://x.com/i/flow/login ' target='blank'>
                     <img src={twitterIcon} alt="" />
                 </a>
                 <a href='https://github.com/Bhuvan-Hegde' target='blank'>
                     <img src={gitIcon} alt="" />
                 </a>
-                <a href='#linkedIn' target='blank'>
+                <a href='https://www.linkedin.com/in/bhuvan-hegde-348b48254/' target='blank'>
                     <img src={linkedInIcon} alt="" />
                 </a>
             </span>
