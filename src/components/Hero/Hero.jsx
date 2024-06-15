@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './HeroStyles.module.css';
-import heroimg from '../../assets/hero-img.png';
+import heroimg from '../../images/main-ezgif.com-crop.gif';
 import twitterIcon from '../../assets/twitter-dark.svg';
 import gitIcon from '../../assets/github-dark.svg';
 import linkedInIcon from '../../assets/linkedin-dark.svg';
@@ -12,12 +12,12 @@ function Hero() {
     
   return (
     <section className={styles.container}>
+        <img className={styles.mainImg} src={heroimg} alt="" />
+        
         
         <div className={styles.info}>
-            <h1>
-            BHUVAN 
-            <br />
-            HEGDE
+            <h1 className={styles.nameText}>
+            BHUVAN  HEGDE
             </h1>
             <h2>
                 Student
@@ -26,7 +26,7 @@ function Hero() {
                 <a href='#twitter' target='blank'>
                     <img src={twitterIcon} alt="" />
                 </a>
-                <a href='#github' target='blank'>
+                <a href='https://github.com/Bhuvan-Hegde' target='blank'>
                     <img src={gitIcon} alt="" />
                 </a>
                 <a href='#linkedIn' target='blank'>

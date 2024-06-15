@@ -1,12 +1,18 @@
+@font-face {
+    font-family: myFont;
+    src: url(../../assets/Pixeled.ttf);
+}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 60px;
     text-align: center;
-    height: 100%;
+    height: 100vh;
     min-height: 500px;
-    padding-top: 50px;
+    padding-top: 100px;
+    align-items: center;
 
 
     .hero{
@@ -66,3 +72,27 @@
     }
 }
 
+.mainImg{
+    width: 300px;
+    mix-blend-mode:screen;
+}
+
+
+.nameText{
+
+    font-family: myFont, sans-serif;
+}
+
+@media(min-width:900px){
+    .container{
+        flex-direction:row-reverse;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .mainImg{
+        padding-bottom: 50px;
+        width: 400px;
+    }
+
+}
