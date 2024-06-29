@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFont;
+    src: url(../../assets/Pixeled.ttf);
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -14,7 +19,9 @@
 
 .projectTitle{
     font-weight: 700;
-    font-size: 38px;
+    font-size: 32px;
+    font-family: 'myFont';
+    
 }
 
 
