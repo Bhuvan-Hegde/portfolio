@@ -6,6 +6,7 @@ import gitIcon from '../../assets/github-dark.svg';
 import linkedInIcon from '../../assets/linkedin-dark.svg';
 import cv from '../../assets/bhuvan-resume.pdf'
 import { useTheme } from '../../common/ThemeContext';
+import discord from '../../assets/discord-icon.webp'
 
 
 function Hero() {
@@ -23,8 +24,8 @@ function Hero() {
                 Student
             </h2>
             <span>
-                <a href='https://x.com/i/flow/login ' target='blank'>
-                    <img src={twitterIcon} alt="" />
+                <a href='https://discord.gg/Wsuy2FhzT2' target='blank'>
+                    <img src={discord} alt="" />
                 </a>
                 <a href='https://github.com/Bhuvan-Hegde' target='blank'>
                     <img src={gitIcon} alt="" />
