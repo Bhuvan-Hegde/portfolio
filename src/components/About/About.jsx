@@ -5,7 +5,8 @@ function About() {
   return (
     <>
     <span className={styles.mainpage}> 
-    ABOUT ME!
+    <h1>ABOUT ME!</h1>
+    <h2>Under Development</h2>
 
 
     </span>
