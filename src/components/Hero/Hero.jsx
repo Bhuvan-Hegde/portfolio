@@ -7,6 +7,7 @@ import linkedInIcon from '../../assets/linkedin-dark.svg';
 import cv from '../../assets/bhuvan-resume.pdf'
 import { useTheme } from '../../common/ThemeContext';
 import discord from '../../assets/discord-icon.webp'
+import scrollimg from '../../assets/down.gif'
 
 
 function Hero() {
@@ -40,7 +41,9 @@ function Hero() {
             <a href={cv} download>
                 <button className='hover' >Resume</button>
             </a>
+
         </div>
+           
     </section>
   )
 }

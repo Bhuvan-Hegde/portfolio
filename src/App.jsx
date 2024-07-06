@@ -5,14 +5,16 @@ import Projects from './components/projects/Projects'
 import About from './components/About/About'
 
 
+
 function App() {
 
 
   return (
     <>
       <Hero />
-      <About />
       <Projects />
+      
+     
 
     
     
