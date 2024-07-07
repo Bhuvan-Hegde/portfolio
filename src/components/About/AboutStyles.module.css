@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: myfony;
+    src: url('../../assets/Pixeled.ttf');
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.heading{
+    font-family: myfont;
+}
+
+
+.mypic{
+    height: 300px;
+    border-radius: 50px 50px 0 50px;
+    box-shadow: 
+    50px 50px 0 -40px rgb(73, 81, 83);
+}
+
+.firstP{
+    width: 95%;
+
+}
+
+.maindiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.header{
+    position: relative;
+}
+
+.gif{
+    position: absolute;
+    width: 100px;
+    top: -35px;
+    left: 72px;
+}
+
+
+.logoimg{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    aspect-ratio: 3/2;
+    padding: 30px;
+ 
+}
+
+.logoimg:hover{
+    scale: 1.1;
+}
+
+
+.serviceText{
+    font-size: 20px;
+    font-family: myfont;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}    
+
+
+.skillgrid{
+    gap: 30px;
+}
+
+@media(min-width:900px){
+    .maindiv{
+        flex-direction: row;
+        width: 90%;
+    }
+}
