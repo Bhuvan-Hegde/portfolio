@@ -33,19 +33,19 @@ function About() {
         <div className={styles.skill}>
             <h2 className={styles.serviceText}>SKILLSET</h2>
             <div className={styles.skillgrid}>
-                <a className={styles.logobg} href="#">
+                <a className={styles.logobg} href="https://www.w3schools.com/html/">
                     <img className={styles.logoimg} src={htmllogo} alt="" />
                 </a>
-                <a className={styles.logobg} href="#">
+                <a className={styles.logobg} href="https://www.w3schools.com/css/">
                     <img className={styles.logoimg} src={csslogo} alt="" />
                 </a>
-                <a className={styles.logobg} href="#">
+                <a className={styles.logobg} href="https://react.dev/">
                     <img className={styles.logoimg} src={reactlogo} alt="" />
                 </a>
-                <a className={styles.logobg} href="#">
+                <a className={styles.logobg} href="https://photoshop-touch-for-phone.en.softonic.com/android">
                     <img className={styles.logoimg} src={pscclogo} alt="" />
                 </a>
-                <a className={styles.logobg} href="#">
+                <a className={styles.logobg} href="https://getbootstrap.com/">
                 <img className={styles.logoimg} src={bootstlogo} alt="" />
                 </a>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './FooterStyles.module.css'
+import styles from './LowerStyles.module.css'
 import logo from '../../assets/logo.png'
 
 import twitterIcon from '../../assets/twitter-dark.svg';
